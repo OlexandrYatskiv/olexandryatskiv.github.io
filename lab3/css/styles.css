@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+body {
+  background:  -webkit-linear-gradient(top, rgba(2,232,157,0.1) 0%,rgba(20,6,115,0.5) 50%,rgba(65,181,164,0.1) 100%) 0 0/100% 100% ;
+
+  
+}
+
+.title {
+ 
+  left: 0px;
+  top: 0px;
+ font-family: 'Rubik Moonrocks', cursive;
+  font-size: 25px;
+text-align:center ;
+  color: black;
+  font-weight: 500;
+  padding: 40px;
+  font-style: oblique;
+  border-top:  solid 5px rgba(0, 0, 0, 0.2) /*rgba(1,130,150,0.5)*/ ;
+  border-bottom:  solid 5px rgba(0, 0, 0, 0.2)  /*rgba(1,130,150,0.5)*/ ;
+  background: -webkit-linear-gradient(top, rgba(128, 120, 128, 0.1) 0%,rgba(128, 128, 128, 0.31) 50%,rgba(128, 140, 128, 0.5) 100%) ;
+}
+.title:first-letter{
+font-family: "Brush Script MT";
+  font-size: 40px;
+}
+.menu {
+display: flex;
+font-size: 20px;
+
+}
+.menu a{
+ 
+  text-align:center ;
+   border-radius: 1px 1px 5px 5px;
+  display: inline-block;
+  margin-right: 3px;
+  height: 30px;
+  width: 300px;
+    border: solid 2px blue;
+  background: darkgray;
+  box-shadow: 1px 3px 5px 1px #00BAFF
+
+
+}
+.menu a:hover{
+   background: lightgray;
+   border-radius: 10px;
+    box-shadow: 1px 3px 5px 1px #E1F7FF;
+    padding-top: 1px;
+       border: solid 2px black;
+ }
+.avatar{
+  border: solid 5px rgba(1,130,150,0.5);
+border-radius: 50%;
+display:inline ;
+width: 200px;
+}
+
+.PIB_image {
+margin: 20px 20px;
+  display: flex;
+}
+
+.PIB{
+ margin: 12px 20px;
+font-size: 20px;
+  font-weight: 700;
+}
+
+.experiense{
+ margin: 40px 20px;
+ font-style: oblique;
+font-size: 14px;
+}
+
+.data {
+font-style: oblique;
+font-size: 14px;
+}
+
+.line {
+   border-top: solid 2px;
+   margin-top: 30px ;
+
+}
+
+.osobistist{
+   
+   word-spacing: 30px;
+   margin: 0px 5px;
+}
+
+.charecteristic {
+margin-bottom: 20px;
+ font-size: 18px;
+  font-style: italic;
+  font-weight: 500px;
+  line-height: 20px;
+}
+
+.charactr_ul {
+ /* margin: 20px 0px;*/
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+letter-spacing: 3px;
+word-spacing: 2px;
+width:304px;
+}
+
+.about_me {
+ font-size: 18px;
+  font-style: italic;
+  font-weight: 500px;
+  word-spacing: 1px;
+}
+
+.back{
+  background: -webkit-linear-gradient(top, rgba(128, 120, 128, 0.1) 0%,rgba(128, 128, 128, 0.31) 50%,rgba(128, 140, 128, 0) 100%) ;
+}
+
+.posilannya {
+  word-spacing: 2px;
+
+}
+
+.posilannya:hover{
+  text-decoration: underline;
+  color:skyblue;
+}
+
+ .about {
+    list-style:square; 
+    margin: 0px 30px;
+   }
+   .ulll {
+
+    padding-bottom: 50px;
+   }
+
+
+   .portfolio li{
+     word-spacing: 2px;
+    
+   }
+
+   .portfolio:hover{
+
+  text-decoration: underline;
+  color:skyblue;
+}
