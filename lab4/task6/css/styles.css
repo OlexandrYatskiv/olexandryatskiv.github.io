@@ -1,0 +1,33 @@
+
+body {margin: 0;}
+div {
+  padding: 20px 0;
+  
+  text-align: center;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+
+}
+.d1 h3 {
+  color: #000;
+}
+.d1 h3:before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #000;
+  z-index: -1;
+}
+.d1 span {
+  background: white;
+  padding: 0 20px;
+}
