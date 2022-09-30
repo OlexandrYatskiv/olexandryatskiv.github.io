@@ -1,0 +1,12 @@
+#table{
+	margin: auto auto;
+	display: grid;
+    justify-items: center;
+	grid-template-columns: repeat(9,1fr);
+}
+
+
+body {
+    border: solid 1px #000;
+    padding: 40px 0;
+}
