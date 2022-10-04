@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 1 Yatskiv</title>
+</head>
+
+    <script language="JavaScript">
+        var szHelloMsg = "Hello, world!";
+
+        function printNString(szString, n) {
+            var i;
+            for (i = 0; i < n; i++) {
+                document.write(szString + "<br>");
+            }
+        }
+
+        function printHello() {
+            printNString(szHelloMsg, 10);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>JavaScript Test</h1>
+    <p>Message:<br>
+        <script language="JavaScript">
+            printHello();
+        </script>
+</body>
+</html>

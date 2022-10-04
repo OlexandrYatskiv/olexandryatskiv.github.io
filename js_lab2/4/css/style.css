@@ -1,0 +1,21 @@
+.a {
+    
+  margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+ body {
+    background-color: rgb(223, 241, 153);
+ }
+ button {
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 0 10px;
+    width: 40px;
+    font-weight: 500;
+}
+h1 {
+    text-align: center;
+}
