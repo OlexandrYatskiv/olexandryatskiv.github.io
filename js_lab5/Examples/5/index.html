@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 5 Yatskiv</title>
+    <script>function checkWholePositiveNumber(str) {
+        if(!str.length) alert("This is not valid whole positivenumber!");
+        var re = new RegExp("[^0-9]", "g");
+        /*оголошуємо об'єкт RegExp. Шаблоном є будь-який символ,
+        відмінний від цифри. Шаблон шукатиметься по всьому рядку, оскільки він
+        оголошений із прапорцем "g"*/
+        str = str.replace(re,"a");
+        /*шукаємо заданий шаблон по всьому рядку str і заміняємо його на
+        символ "a". Тобто, усі символи в рядку, що не є цифрами, ми замінимо
+        на символ "а" */
+        
+        if(str.indexOf("a") != -1)
+        // якщо у рядку є символ "а", то рядок явно не є представленням натурального числа
+        alert("This is not valid whole positive number!");
+        // тому видаємо повідомлення про те, що число задано некоректно
+        }
+        checkWholePositiveNumber(9870)
+        </script>
+</head>
+<body>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 1 Yatskiv</title>
+    <script>
+        function modifyTextArea()
+        {
+        var val =
+        document.getElementById("textarea1").value;
+        var flags = "g";
+        var reg = new RegExp("s", flags);
+        val = val.replace(reg, "1");
+        document.getElementById("textarea1").value =
+        val;
+        }
+        </script>
+        </head>
+        <body>
+        <textarea rows="4" cols="20" id="textarea1">Each student of
+        </textarea>
+        <br>
+        <input type="button" value="Modify"
+        onclick="modifyTextArea();">
+        </body>
+        </html>
